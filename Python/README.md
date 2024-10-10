@@ -20,7 +20,7 @@ This hack will help you learn:
 - Synthesize speech using Azure AI Speech
 
 ## Success Criteria
-- Complete "Hackathon step 1" to "Hackathon step 5" in `app.py`and 'index.html'
+- Complete "Hackathon step 1" to "Hackathon step 5" in `app.py. 
 - Build and run the web app on your development machine. The app should be able to:
   - Analyze the provided images and display the analysis result that describes the hidden treasure
   - Synthesize the analysis result into speech and play the audio on your development machine
