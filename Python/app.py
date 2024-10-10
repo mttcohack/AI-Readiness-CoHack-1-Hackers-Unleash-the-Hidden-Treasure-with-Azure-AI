@@ -79,7 +79,7 @@ def aivision():
         
                 print(f"Images count: {len(images)}")
 
-            return render_template('index.html', images=images, analysis_results=None)
+            return render_template('index.html', images=images, analysis_results=None, title=title)
             
         if request.method == 'POST':
              analysis_results = None 
