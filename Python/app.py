@@ -40,6 +40,9 @@ credential = ClientSecretCredential(tenant_id=tenant_id, client_id=client_id, cl
 blob_service_client = BlobServiceClient(account_url=storage_url, credential=credential)
 container_client = blob_service_client.get_container_client(container)
 
+# Hackathon step 1: Change the default hunter name to your name
+title=' Hunter X'
+
 # Hackathon step 2: Retrieve AOAI and Cognitive API keys from Key Vault
 
 # Hackathon step 3a: Aunthticate the Vision client
@@ -56,7 +59,6 @@ def openai(text):
 def text_to_speech(text):
 
     return "Speech synthesis completed"
-    
 
 @app.route('/', methods=['GET', 'POST'])
 def aivision():
